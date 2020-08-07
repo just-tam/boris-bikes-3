@@ -18,8 +18,8 @@ class DockingStation
 
   def dock(bike)
     fail "Docking station is full" if full?
-    fail "No bikes available" if bike.broken?
-    @bikes << bike
+    # fail "No bikes available" if bike.broken?
+     @bikes << bike
   end
 
   private
